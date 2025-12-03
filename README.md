@@ -77,11 +77,11 @@ python quickstart.py
 - `GET /api/backups` - List all backups
 
 ### Restore Operations
-- `POST /api/restore/components/{workspace_id}` - Restore backup components to workspace
+- `POST /api/restore/components/{workspace_id}` - Restore backup components to workspace as per selected component in UI. 
 
 ### Query Parameters for Restoration
 ```
-?backup_id=BACKUP_ID
+&backup_id=BACKUP_ID
 &restore_reports=true|false
 &restore_datasets=true|false
 &restore_refresh_schedules=true|false
@@ -129,11 +129,7 @@ python quickstart.py
 
 
 
-
-enabled=true` but no `days`/`times` → **SKIPPED**
-
 ## Logging
-
 Logs are saved to the `logs/` directory. Check logs for:
 - Backup progress
 - Restoration status
@@ -151,7 +147,6 @@ Get-Content -Path logs/app.log -Wait
 
 
 ## Next Steps
-
 1. Configure `.env` with your credentials
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the application: `python main.py`
@@ -159,7 +154,6 @@ Get-Content -Path logs/app.log -Wait
 5. Start creating backups and restoring!
 
 ## Support
-
 For issues, check:
 - `logs/` directory for detailed error logs
 - API response messages in the UI
