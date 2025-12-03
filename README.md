@@ -1,6 +1,6 @@
 # Power BI Backup & Restore - Working Directory
 
-This is a clean working directory containing only the essential files needed to run the Power BI Backup & Restore project. All documentation (.md), shell scripts (.sh), and batch files (.bat) have been excluded.
+Working directory containing only the essential files needed to run the Power BI Backup & Restore project.
 
 ## Directory Structure
 
