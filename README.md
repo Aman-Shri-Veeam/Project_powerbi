@@ -78,7 +78,6 @@ python quickstart.py
 
 ### Restore Operations
 - `POST /api/restore/components/{workspace_id}` - Restore backup components to workspace
-- `GET /api/backup/{backup_id}` - Get backup details
 
 ### Query Parameters for Restoration
 ```
@@ -121,34 +120,17 @@ python quickstart.py
 | `restore_service.py` | Services for restoring components |
 | `storage.py` | Backup file storage and retrieval |
 | `models.py` | Pydantic models for request/response validation |
-| `logger.py` | Centralized logging utilities |
+| `logger.py` |  logging utilities |
 | `config.py` | Configuration settings from environment variables |
 | `quickstart.py` | Utilities for quick testing and setup |
 | `index.html` | Web UI home page |
 | `app.js` | Frontend logic and API calls |
 | `style.css` | UI styling |
 
-## Refresh Schedule Behavior
 
-**Important:** Refresh schedules are **only restored if they are ENABLED** in the backup.
 
-### Backup Data Example
-```json
-{
-  "schedule": {
-    "enabled": true,
-    "days": ["Monday", "Wednesday", "Friday"],
-    "times": ["02:00"],
-    "localTimeZoneId": "UTC",
-    "notifyOption": "MailOnFailure"
-  }
-}
-```
 
-### Restoration
-- ✅ If `enabled=true` and has `days` and `times` → **RESTORED**
-- ⏭️ If `enabled=false` → **SKIPPED**
-- ⏭️ If `enabled=true` but no `days`/`times` → **SKIPPED**
+enabled=true` but no `days`/`times` → **SKIPPED**
 
 ## Logging
 
@@ -167,28 +149,6 @@ tail -f logs/app.log
 Get-Content -Path logs/app.log -Wait
 ```
 
-## Requirements
-
-- Python 3.8+
-- Dependencies: See `requirements.txt`
-- Power BI Service Principal credentials
-- Azure AD App Registration
-
-## Troubleshooting
-
-### "Access token failed"
-- Verify `POWERBI_CLIENT_ID`, `POWERBI_CLIENT_SECRET`, `POWERBI_TENANT_ID` in `.env`
-- Check Azure AD app has Power BI API permissions
-
-### "PBIX import failed"
-- Verify workspace ID exists
-- Check file path is correct
-- Ensure service principal has workspace access
-
-### "Refresh schedule error"
-- Only enabled schedules are restored
-- Check schedule has valid days and times
-- Verify dataset exists in target workspace
 
 ## Next Steps
 
