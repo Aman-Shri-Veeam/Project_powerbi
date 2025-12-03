@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Backup Service - Premium</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>Power BI <strong>Backup</strong></h1>
+                <p class="subtitle">Enterprise-grade backup & restore service</p>
+            </div>
+            <div class="status-indicator">
+                <div class="status-dot" id="statusDot"></div>
+                <span id="statusText">Checking...</span>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="backup">📦 Backup</button>
+            <button class="tab-button" data-tab="restore">↩️ Restore</button>
+            <button class="tab-button" data-tab="history">📋 History</button>
+            <button class="tab-button" data-tab="jobs">⚙️ Jobs</button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Backup Tab -->
+            <section id="backup-tab" class="tab-content active">
+                <div class="card">
+                    <h2>📊 Select Workspace to Backup</h2>
+                    
+                    <div class="form-group">
+                        <label for="workspaceSelect">Available Workspaces</label>
+                        <div class="workspace-controls">
+                            <button type="button" id="loadWorkspacesBtn" class="btn btn-secondary">
+                                <span class="btn-icon">🔄</span> Load Workspaces
+                            </button>
+                            <span id="loadingSpinner" style="display:none; margin-left: 10px;">Loading...</span>
+                        </div>
+                        <select id="workspaceSelect" name="workspaceSelect">
+                            <option value="">-- Click "Load Workspaces" to fetch available workspaces --</option>
+                        </select>
+                        <small>Or manually enter workspace ID below</small>
+                    </div>
+
+                    <form id="backupForm" class="form">
+                        <div class="form-group">
+                            <label for="workspaceId">Workspace ID (Manual Entry)</label>
+                            <input 
+                                type="text" 
+                                id="workspaceId" 
+                                name="workspaceId" 
+                                placeholder="Enter your Power BI workspace ID or select from above"
+                            >
+                            <small>Alternatively, select from the dropdown above or enter manually</small>
+                        </div>
+
+                        <div id="workspaceInfo" style="display:none;" class="info-box">
+                            <h4>Workspace Details</h4>
+                            <p><strong>Name:</strong> <span id="infoName"></span></p>
+                            <p><strong>Reports:</strong> <span id="infoReports"></span></p>
+                            <p><strong>Datasets:</strong> <span id="infoDatasets"></span></p>
+                            <p><strong>Dashboards:</strong> <span id="infoDashboards"></span></p>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-icon">💾</span> Start Backup
+                        </button>
+                    </form>
+                </div>
+
+                <div id="backupResult" class="result-container" style="display:none;">
+                    <div class="alert alert-success">
+                        <h3>Backup Started Successfully!</h3>
+                        <div class="backup-info">
+                            <p><strong>Backup ID:</strong> <span id="resultBackupId"></span></p>
+                            <p><strong>Status:</strong> <span id="resultStatus"></span></p>
+                            <p><strong>Started:</strong> <span id="resultTimestamp"></span></p>
+                        </div>
+                        <p class="info-text">The backup is running in the background. You can check the status in the "Jobs" tab.</p>
+                    </div>
+                </div>
+
+                <div id="backupError" class="result-container" style="display:none;">
+                    <div class="alert alert-error">
+                        <h3>Backup Failed</h3>
+                        <p id="errorMessage"></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Restore Tab -->
+            <section id="restore-tab" class="tab-content">
+                <!-- Step 1: Select Backup -->
+                <div class="card">
+                    <h2>↩️ Step 1: Select Backup to Restore</h2>
+                    <div class="form-group">
+                        <label for="restoreBackupSelect">Available Backups</label>
+                        <select id="restoreBackupSelect" name="restoreBackupSelect">
+                            <option value="">-- Loading backups --</option>
+                        </select>
+                        <small>Select a backup to see available PBIX files</small>
+                    </div>
+                    <button id="showBackupDetailsBtn" class="btn btn-secondary" style="display:none;">
+                        <span class="btn-icon">📋</span> View Backup Details
+                    </button>
+                </div>
+
+                <!-- Backup Details -->
+                <div id="backupDetailsContainer" class="card" style="display:none;">
+                    <h3>Backup Details</h3>
+                    <div id="backupDetailsContent"></div>
+                </div>
+
+                <!-- Step 2: Get Restoration Plan -->
+                <div class="card">
+                    <h2>📋 Step 2: Get Restoration Plan</h2>
+                    <div class="form-group">
+                        <label for="planTargetWorkspace">Target Workspace ID</label>
+                        <input 
+                            type="text" 
+                            id="planTargetWorkspace" 
+                            placeholder="Enter target Power BI workspace ID"
+                        >
+                        <small>The workspace where components will be restored</small>
+                    </div>
+                    <button id="planRestorationBtn" class="btn btn-primary">
+                        <span class="btn-icon">�</span> Create Restoration Plan
+                    </button>
+                </div>
+
+                <!-- Restoration Plan -->
+                <div id="restorationPlanContainer" class="card" style="display:none;">
+                    <h3>Restoration Plan</h3>
+                    <div id="restorationPlanContent"></div>
+                </div>
+
+                <!-- Step 3: Execute Restoration -->
+                <div class="card">
+                    <h2>🔄 Step 3: Execute Unified Restoration</h2>
+                    <div class="form-group">
+                        <label for="execTargetWorkspace">Target Workspace ID</label>
+                        <input 
+                            type="text" 
+                            id="execTargetWorkspace" 
+                            placeholder="Enter target Power BI workspace ID"
+                        >
+                        <small>Where to restore the components</small>
+                    </div>
+
+                    <div class="restoration-options">
+                        <h4 style="margin-top: 15px; margin-bottom: 10px; color: #d4a574;">📦 Select Components to Restore</h4>
+                        <label class="checkbox">
+                            <input type="checkbox" id="restoreReportsOption" checked>
+                            <span>📄 Reports (PBIX Files)</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="restoreDatasetsOption" checked>
+                            <span>📊 Datasets & Configurations</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="restoreRefreshSchedulesOption" checked>
+                            <span>⏰ Refresh Schedules</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="restoreDashboardsOption">
+                            <span>📈 Dashboards</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="restoreDataflowsOption">
+                            <span>🌊 Dataflows</span>
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="restoreAppsOption">
+                            <span>📱 Apps</span>
+                        </label>
+                    </div>
+
+                    <button id="executeRestorationBtn" class="btn btn-primary">
+                        <span class="btn-icon">🚀</span> Execute Unified Restoration
+                    </button>
+                </div>
+
+                <!-- Restoration Results -->
+                <div id="restorationResult" class="result-container" style="display:none;">
+                    <div class="alert alert-success">
+                        <h3>Restoration Started Successfully!</h3>
+                        <div id="restorationResultContent"></div>
+                        <p class="info-text">The restoration is running in the background. Check the "Jobs" tab for progress.</p>
+                    </div>
+                </div>
+
+                <div id="restorationError" class="result-container" style="display:none;">
+                    <div class="alert alert-error">
+                        <h3>Restoration Failed</h3>
+                        <p id="restorationErrorMessage"></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- History Tab -->
+            <section id="history-tab" class="tab-content">
+                <div class="card">
+                    <h2>Backup History</h2>
+                    <button id="refreshHistoryBtn" class="btn btn-secondary">
+                        <span class="btn-icon">🔄</span> Refresh
+                    </button>
+                    <div id="historyContainer" class="list-container">
+                        <p class="loading">Loading backups...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Jobs Tab -->
+            <section id="jobs-tab" class="tab-content">
+                <div class="card">
+                    <h2>Active Jobs</h2>
+                    <button id="refreshJobsBtn" class="btn btn-secondary">
+                        <span class="btn-icon">🔄</span> Refresh
+                    </button>
+                    <div id="jobsContainer" class="list-container">
+                        <p class="loading">Loading jobs...</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Power BI Backup Service | FastAPI + Python</p>
+        </footer>
+    </div>
+
+    <!-- Loading Modal -->
+    <div id="loadingModal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <div class="spinner"></div>
+            <p>Loading...</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>🛡️ <strong>Power BI Backup Service</strong> - Enterprise Backup & Restore Solution</p>
+            <p style="margin-top: 10px; font-size: 0.9em; color: #999;">Protect your Power BI assets with automated backups and reliable restore capabilities</p>
+        </footer>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="notification" class="toast" style="display:none;">
+        <span id="notificationText"></span>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

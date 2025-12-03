@@ -1,0 +1,278 @@
+# Working Directory - Quick Navigation Index
+
+## 📍 Location
+`c:\OneUI\PowerBi - Copy\powerbi-backup-python\Working\`
+
+---
+
+## 🚀 Quick Start (3 Steps)
+
+1. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Configure Environment**
+   - Edit `.env` with your Power BI credentials
+
+3. **Run Application**
+   ```bash
+   python main.py
+   ```
+   Then visit: **http://localhost:8000**
+
+---
+
+## 📚 Documentation Files
+
+| File | Purpose | Time to Read |
+|------|---------|-------------|
+| **SETUP.txt** | Quick 5-minute setup guide | 5 min |
+| **README.md** | Full documentation and features | 15 min |
+| **DIRECTORY_SUMMARY.txt** | File inventory and features | 10 min |
+| **COMPLETE_REFERENCE.txt** | Complete technical reference | 20 min |
+| **INDEX.txt** | This file - quick navigation | 2 min |
+
+---
+
+## 🐍 Python Files
+
+### Core Application
+| File | Lines | Purpose |
+|------|-------|---------|
+| `main.py` | 800+ | FastAPI server & REST endpoints |
+| `auth_and_api.py` | 400+ | Power BI API client |
+| `backup_service.py` | 250+ | Backup logic |
+| `restore_service.py` | 900+ | Restoration logic |
+| `storage.py` | 200+ | File storage management |
+
+### Supporting Modules
+| File | Lines | Purpose |
+|------|-------|---------|
+| `models.py` | 60+ | Data models |
+| `logger.py` | 30+ | Logging utilities |
+| `config.py` | 30+ | Configuration |
+| `quickstart.py` | 80+ | Utilities |
+
+---
+
+## 🌐 Frontend Files (static/)
+
+| File | Size | Purpose |
+|------|------|---------|
+| `index.html` | 12 KB | Web UI page |
+| `app.js` | 40 KB | Frontend logic |
+| `style.css` | 37 KB | Styling |
+
+---
+
+## ⚙️ Configuration
+
+### .env File (Edit this!)
+```env
+POWERBI_CLIENT_ID=your_azure_app_id
+POWERBI_CLIENT_SECRET=your_app_password
+POWERBI_TENANT_ID=your_tenant_id
+```
+
+### requirements.txt
+```
+aiohttp
+fastapi
+uvicorn
+pydantic-settings
+pydantic
+```
+
+---
+
+## 🔌 API Endpoints Quick Reference
+
+### Workspaces
+```
+GET  /api/workspaces
+GET  /api/workspace/{id}
+```
+
+### Backups
+```
+POST /api/backup/start/{workspace_id}
+GET  /api/backups
+GET  /api/backup/{backup_id}
+```
+
+### Restore
+```
+POST /api/restore/components/{workspace_id}
+     ?backup_id=ID
+     &restore_reports=true
+     &restore_datasets=true
+     &restore_refresh_schedules=true
+```
+
+### UI
+```
+GET  /
+GET  /docs
+```
+
+---
+
+## 📝 File Manifest
+
+### Python Files (9)
+- ✅ main.py
+- ✅ auth_and_api.py
+- ✅ backup_service.py
+- ✅ restore_service.py
+- ✅ storage.py
+- ✅ models.py
+- ✅ logger.py
+- ✅ config.py
+- ✅ quickstart.py
+
+### Configuration (2)
+- ✅ .env
+- ✅ requirements.txt
+
+### Frontend (3)
+- ✅ static/index.html
+- ✅ static/app.js
+- ✅ static/style.css
+
+### Documentation (4)
+- ✅ README.md
+- ✅ SETUP.txt
+- ✅ DIRECTORY_SUMMARY.txt
+- ✅ COMPLETE_REFERENCE.txt
+
+### Directories (2)
+- ✅ backups/ (auto-created)
+- ✅ logs/ (auto-created)
+
+---
+
+## 🛠️ Common Commands
+
+### Start Server
+```bash
+python main.py
+```
+
+### View API Documentation
+```
+http://localhost:8000/docs
+```
+
+### View Recent Logs
+```bash
+# Linux/Mac
+tail -f logs/app.log
+
+# Windows
+Get-Content logs/app.log -Wait
+```
+
+### List Backups
+```bash
+ls backups/
+```
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ⚠️ Important Notes
+
+### Refresh Schedules
+- Only **enabled** schedules are restored
+- **Disabled** schedules are skipped
+- This prevents API validation errors
+
+### Security
+- Keep `.env` file secure
+- Don't commit `.env` to version control
+- Rotate secrets regularly
+- Use HTTPS in production
+
+### Performance
+- Small workspace: 2-5 minutes
+- Medium workspace: 5-15 minutes
+- Large workspace: 15+ minutes
+
+---
+
+## 🔍 Troubleshooting
+
+### "ModuleNotFoundError"
+```bash
+pip install -r requirements.txt
+```
+
+### "Access token failed"
+- Check `.env` credentials
+- Verify Azure AD app permissions
+
+### "Cannot connect to localhost:8000"
+```bash
+python main.py
+```
+
+### View Errors in Logs
+```bash
+cat logs/app.log | grep ERROR
+```
+
+---
+
+## 📖 Where to Go Next
+
+1. **First Time?** → Read **SETUP.txt**
+2. **Need Details?** → Read **README.md**
+3. **Technical Info?** → Read **COMPLETE_REFERENCE.txt**
+4. **File Info?** → Read **DIRECTORY_SUMMARY.txt**
+
+---
+
+## ✅ Checklist Before Running
+
+- [ ] Python 3.8+ installed
+- [ ] Requirements installed: `pip install -r requirements.txt`
+- [ ] `.env` file configured with credentials
+- [ ] Azure AD app has Power BI API permissions
+- [ ] Power BI service principal enabled
+- [ ] Network access to Power BI APIs
+
+---
+
+## 🎯 Status
+
+✅ **READY TO RUN**
+
+Execute: `python main.py`
+
+---
+
+## 📞 Support Resources
+
+- **Microsoft Power BI API**: https://learn.microsoft.com/rest/api/power-bi/
+- **FastAPI Docs**: https://fastapi.tiangolo.com/
+- **Python Docs**: https://docs.python.org/3/
+- **Logs**: Check `logs/app.log` for details
+
+---
+
+## 🎉 You're All Set!
+
+Start with:
+```bash
+cd Working
+pip install -r requirements.txt
+# Configure .env
+python main.py
+```
+
+Enjoy!

@@ -1,0 +1,2125 @@
+{
+  "backup_id": "check_20251203_140135",
+  "timestamp": "2025-12-03T14:01:35.183226",
+  "workspace_id": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+  "version": "2.0",
+  "restoration_guide": {
+    "reports": "PBIX files can be imported to target workspace",
+    "datasets": "Configuration will be restored, data refreshes from source",
+    "dashboards": "Metadata stored, must recreate in target workspace",
+    "refresh_schedules": "Can be restored automatically",
+    "workspace_settings": "Can be restored automatically"
+  },
+  "workspace_info": {
+    "id": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+    "name": "Check",
+    "type": "Workspace",
+    "state": null,
+    "is_ondemdpremium_enabled": null,
+    "is_premium_capacity": true,
+    "capacity_id": "a26c6eb9-ce5f-4778-a60c-a01a21a21816"
+  },
+  "reports": {
+    "count": 24,
+    "items": [
+      {
+        "id": "accd3e7c-673f-4b35-8ffa-b67775483671",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/accd3e7c-673f-4b35-8ffa-b67775483671",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=accd3e7c-673f-4b35-8ffa-b67775483671&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "e8d6bd90-b74a-4b3d-acb9-4a4dfe87f88d",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "e775c499-7dda-48af-8f1b-d75931e5cac1",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/e775c499-7dda-48af-8f1b-d75931e5cac1",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=e775c499-7dda-48af-8f1b-d75931e5cac1&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "e637c7fb-9a8d-4118-b63d-cce6fa4d3770",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "7daefb7e-ff36-4e36-b87e-806f7eda529f",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/7daefb7e-ff36-4e36-b87e-806f7eda529f",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=7daefb7e-ff36-4e36-b87e-806f7eda529f&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "6397ffad-0d88-4af9-9f62-4d9e98ba2a84",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "9f4aa92a-2aa7-4d38-a6bd-68a9edabf2f2",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/9f4aa92a-2aa7-4d38-a6bd-68a9edabf2f2",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=9f4aa92a-2aa7-4d38-a6bd-68a9edabf2f2&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "e6619dd2-dc95-44b4-8530-3fc87c8b9e27",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "6e7eced7-c0a9-4f76-b41b-db29f0e360c7",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/6e7eced7-c0a9-4f76-b41b-db29f0e360c7",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=6e7eced7-c0a9-4f76-b41b-db29f0e360c7&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "37238a22-1f08-40ef-bbb5-73a64e4d78e8",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "da9c582e-d285-4615-8b9c-a8789c2c0f8e",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "reportcheckrefresh",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/da9c582e-d285-4615-8b9c-a8789c2c0f8e",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=da9c582e-d285-4615-8b9c-a8789c2c0f8e&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": false,
+        "isOwnedByMe": true,
+        "datasetId": "6f96ba76-113e-4a46-a9db-066810d90f0a",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "ce4b654d-d8d5-4637-b5af-4ca12bcdb52b",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/ce4b654d-d8d5-4637-b5af-4ca12bcdb52b",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=ce4b654d-d8d5-4637-b5af-4ca12bcdb52b&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "ecfbd4a9-f004-4ad9-bc6d-d40bfc6265d0",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "978d41d9-f485-47bc-9ede-2157d7223944",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/978d41d9-f485-47bc-9ede-2157d7223944",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=978d41d9-f485-47bc-9ede-2157d7223944&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "94b5fa3e-0338-485f-a310-1a398332fadf",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "e0ddf288-8e15-4afb-bdf9-0ad8c25db834",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "reportcheckrefresh_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/e0ddf288-8e15-4afb-bdf9-0ad8c25db834",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=e0ddf288-8e15-4afb-bdf9-0ad8c25db834&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "6bf363bb-3ee4-4af6-9729-d249d36a2185",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "b9aaecd4-d38c-4cb9-9828-4875bf78783e",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_4",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/b9aaecd4-d38c-4cb9-9828-4875bf78783e",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=b9aaecd4-d38c-4cb9-9828-4875bf78783e&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "7cee50e0-b413-43a8-954e-beb60f3b66e9",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "092f8684-de64-4e1c-b753-5a8b8e656089",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/092f8684-de64-4e1c-b753-5a8b8e656089",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=092f8684-de64-4e1c-b753-5a8b8e656089&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "32ea910d-56cc-40dc-a2d3-c9011bc791ff",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "bfaaa34a-5f48-46c0-a65e-08f327c15209",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_3_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/bfaaa34a-5f48-46c0-a65e-08f327c15209",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=bfaaa34a-5f48-46c0-a65e-08f327c15209&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "6e12a83f-63c2-49d1-8a94-952eb183bf89",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "095b2402-89bf-49ae-a8f7-8773ca4d70cd",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_4",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/095b2402-89bf-49ae-a8f7-8773ca4d70cd",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=095b2402-89bf-49ae-a8f7-8773ca4d70cd&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "afdccb82-2b05-4158-bad2-e35d01013a55",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "834bb1dc-1789-429b-ac45-235a9a0d5e81",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_2_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/834bb1dc-1789-429b-ac45-235a9a0d5e81",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=834bb1dc-1789-429b-ac45-235a9a0d5e81&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "0ec9c784-4304-4dcf-b2c4-926cfd16c400",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "6cde2416-fcde-4d2d-8fd4-502ba038d6fa",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_2_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/6cde2416-fcde-4d2d-8fd4-502ba038d6fa",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=6cde2416-fcde-4d2d-8fd4-502ba038d6fa&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "ba9d4903-f1d8-4024-bb4b-b1983d12ba09",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "6b5690e4-2051-460e-b189-569b9ab9b4a2",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_3_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/6b5690e4-2051-460e-b189-569b9ab9b4a2",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=6b5690e4-2051-460e-b189-569b9ab9b4a2&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "df622e79-c502-4028-9a4e-c9e367763348",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "91d3f2ad-2e1c-4faa-94bb-18bd14e2d932",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "reportcheckrefresh_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/91d3f2ad-2e1c-4faa-94bb-18bd14e2d932",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=91d3f2ad-2e1c-4faa-94bb-18bd14e2d932&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "0bdf73d2-9902-4a73-bdc3-a3bbfccd7f75",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "6208d2df-c4db-42bb-a8c6-4cb6db72431b",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "reportcheckrefresh_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/6208d2df-c4db-42bb-a8c6-4cb6db72431b",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=6208d2df-c4db-42bb-a8c6-4cb6db72431b&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "7b4680f8-412b-4235-94b7-1ea14fdcbd98",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "0992da75-971c-4cd1-812d-c3643d9ebcbe",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_5",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/0992da75-971c-4cd1-812d-c3643d9ebcbe",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=0992da75-971c-4cd1-812d-c3643d9ebcbe&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "f0725327-b91e-4cbf-9ef8-36bf00b82686",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "3244998b-0442-48c9-bb1f-6c2a2fc664f8",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_2_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/3244998b-0442-48c9-bb1f-6c2a2fc664f8",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=3244998b-0442-48c9-bb1f-6c2a2fc664f8&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "5f9ed120-60e1-4141-b1f3-f7b34336533a",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "af8ac734-0e43-4b53-86b9-8921c83b50f0",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_2_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/af8ac734-0e43-4b53-86b9-8921c83b50f0",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=af8ac734-0e43-4b53-86b9-8921c83b50f0&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "22fe26f4-977d-4280-b609-8d85edadab41",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "639419c4-9cf8-40c1-bd29-ea7452477f0e",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_3_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/639419c4-9cf8-40c1-bd29-ea7452477f0e",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=639419c4-9cf8-40c1-bd29-ea7452477f0e&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "bdad4672-a27c-4be8-99f2-88ecd2488e82",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "d44f575f-13da-4889-a495-4e548fe53256",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_3_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/d44f575f-13da-4889-a495-4e548fe53256",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=d44f575f-13da-4889-a495-4e548fe53256&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "f20efcca-6238-4ee3-9210-e95e35cc1925",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      },
+      {
+        "id": "a222bb6c-0776-4207-b239-c8af27d52628",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_4_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/a222bb6c-0776-4207-b239-c8af27d52628",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=a222bb6c-0776-4207-b239-c8af27d52628&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "2b1285aa-8c88-4182-bd91-d865d93b8fae",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": []
+      }
+    ],
+    "exported_reports": [
+      {
+        "id": "accd3e7c-673f-4b35-8ffa-b67775483671",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/accd3e7c-673f-4b35-8ffa-b67775483671",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=accd3e7c-673f-4b35-8ffa-b67775483671&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "e8d6bd90-b74a-4b3d-acb9-4a4dfe87f88d",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\GoogleDocDataSetReportCountOfColumn.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "e775c499-7dda-48af-8f1b-d75931e5cac1",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/e775c499-7dda-48af-8f1b-d75931e5cac1",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=e775c499-7dda-48af-8f1b-d75931e5cac1&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "e637c7fb-9a8d-4118-b63d-cce6fa4d3770",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "7daefb7e-ff36-4e36-b87e-806f7eda529f",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/7daefb7e-ff36-4e36-b87e-806f7eda529f",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=7daefb7e-ff36-4e36-b87e-806f7eda529f&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "6397ffad-0d88-4af9-9f62-4d9e98ba2a84",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "9f4aa92a-2aa7-4d38-a6bd-68a9edabf2f2",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/9f4aa92a-2aa7-4d38-a6bd-68a9edabf2f2",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=9f4aa92a-2aa7-4d38-a6bd-68a9edabf2f2&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "e6619dd2-dc95-44b4-8530-3fc87c8b9e27",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\GoogleDocDataSetReportCountOfColumn_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "6e7eced7-c0a9-4f76-b41b-db29f0e360c7",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/6e7eced7-c0a9-4f76-b41b-db29f0e360c7",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=6e7eced7-c0a9-4f76-b41b-db29f0e360c7&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "37238a22-1f08-40ef-bbb5-73a64e4d78e8",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_3.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "da9c582e-d285-4615-8b9c-a8789c2c0f8e",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "reportcheckrefresh",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/da9c582e-d285-4615-8b9c-a8789c2c0f8e",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=da9c582e-d285-4615-8b9c-a8789c2c0f8e&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": false,
+        "isOwnedByMe": true,
+        "datasetId": "6f96ba76-113e-4a46-a9db-066810d90f0a",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\reportcheckrefresh.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "ce4b654d-d8d5-4637-b5af-4ca12bcdb52b",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/ce4b654d-d8d5-4637-b5af-4ca12bcdb52b",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=ce4b654d-d8d5-4637-b5af-4ca12bcdb52b&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "ecfbd4a9-f004-4ad9-bc6d-d40bfc6265d0",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\GoogleDocDataSetReportCountOfColumn_3.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "978d41d9-f485-47bc-9ede-2157d7223944",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/978d41d9-f485-47bc-9ede-2157d7223944",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=978d41d9-f485-47bc-9ede-2157d7223944&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "94b5fa3e-0338-485f-a310-1a398332fadf",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\GoogleDocDataSetReportCountOfColumn_2_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "e0ddf288-8e15-4afb-bdf9-0ad8c25db834",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "reportcheckrefresh_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/e0ddf288-8e15-4afb-bdf9-0ad8c25db834",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=e0ddf288-8e15-4afb-bdf9-0ad8c25db834&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "6bf363bb-3ee4-4af6-9729-d249d36a2185",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\reportcheckrefresh_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "b9aaecd4-d38c-4cb9-9828-4875bf78783e",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_4",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/b9aaecd4-d38c-4cb9-9828-4875bf78783e",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=b9aaecd4-d38c-4cb9-9828-4875bf78783e&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "7cee50e0-b413-43a8-954e-beb60f3b66e9",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_4.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "092f8684-de64-4e1c-b753-5a8b8e656089",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/092f8684-de64-4e1c-b753-5a8b8e656089",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=092f8684-de64-4e1c-b753-5a8b8e656089&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "32ea910d-56cc-40dc-a2d3-c9011bc791ff",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_2_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "bfaaa34a-5f48-46c0-a65e-08f327c15209",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_3_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/bfaaa34a-5f48-46c0-a65e-08f327c15209",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=bfaaa34a-5f48-46c0-a65e-08f327c15209&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "6e12a83f-63c2-49d1-8a94-952eb183bf89",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_3_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "095b2402-89bf-49ae-a8f7-8773ca4d70cd",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_4",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/095b2402-89bf-49ae-a8f7-8773ca4d70cd",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=095b2402-89bf-49ae-a8f7-8773ca4d70cd&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "afdccb82-2b05-4158-bad2-e35d01013a55",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\GoogleDocDataSetReportCountOfColumn_4.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "834bb1dc-1789-429b-ac45-235a9a0d5e81",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_2_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/834bb1dc-1789-429b-ac45-235a9a0d5e81",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=834bb1dc-1789-429b-ac45-235a9a0d5e81&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "0ec9c784-4304-4dcf-b2c4-926cfd16c400",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\GoogleDocDataSetReportCountOfColumn_2_3.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "6cde2416-fcde-4d2d-8fd4-502ba038d6fa",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_2_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/6cde2416-fcde-4d2d-8fd4-502ba038d6fa",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=6cde2416-fcde-4d2d-8fd4-502ba038d6fa&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "ba9d4903-f1d8-4024-bb4b-b1983d12ba09",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\GoogleDocDataSetReportCountOfColumn_2_2_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "6b5690e4-2051-460e-b189-569b9ab9b4a2",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "GoogleDocDataSetReportCountOfColumn_3_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/6b5690e4-2051-460e-b189-569b9ab9b4a2",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=6b5690e4-2051-460e-b189-569b9ab9b4a2&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "df622e79-c502-4028-9a4e-c9e367763348",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\GoogleDocDataSetReportCountOfColumn_3_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "91d3f2ad-2e1c-4faa-94bb-18bd14e2d932",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "reportcheckrefresh_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/91d3f2ad-2e1c-4faa-94bb-18bd14e2d932",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=91d3f2ad-2e1c-4faa-94bb-18bd14e2d932&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "0bdf73d2-9902-4a73-bdc3-a3bbfccd7f75",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\reportcheckrefresh_3.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "6208d2df-c4db-42bb-a8c6-4cb6db72431b",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "reportcheckrefresh_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/6208d2df-c4db-42bb-a8c6-4cb6db72431b",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=6208d2df-c4db-42bb-a8c6-4cb6db72431b&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "7b4680f8-412b-4235-94b7-1ea14fdcbd98",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\reportcheckrefresh_2_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "0992da75-971c-4cd1-812d-c3643d9ebcbe",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_5",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/0992da75-971c-4cd1-812d-c3643d9ebcbe",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=0992da75-971c-4cd1-812d-c3643d9ebcbe&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "f0725327-b91e-4cbf-9ef8-36bf00b82686",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_5.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "3244998b-0442-48c9-bb1f-6c2a2fc664f8",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_2_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/3244998b-0442-48c9-bb1f-6c2a2fc664f8",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=3244998b-0442-48c9-bb1f-6c2a2fc664f8&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "5f9ed120-60e1-4141-b1f3-f7b34336533a",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_2_3.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "af8ac734-0e43-4b53-86b9-8921c83b50f0",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_2_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/af8ac734-0e43-4b53-86b9-8921c83b50f0",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=af8ac734-0e43-4b53-86b9-8921c83b50f0&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "22fe26f4-977d-4280-b609-8d85edadab41",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_2_2_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "639419c4-9cf8-40c1-bd29-ea7452477f0e",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_3_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/639419c4-9cf8-40c1-bd29-ea7452477f0e",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=639419c4-9cf8-40c1-bd29-ea7452477f0e&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "bdad4672-a27c-4be8-99f2-88ecd2488e82",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_3_3.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "d44f575f-13da-4889-a495-4e548fe53256",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_3_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/d44f575f-13da-4889-a495-4e548fe53256",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=d44f575f-13da-4889-a495-4e548fe53256&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "f20efcca-6238-4ee3-9210-e95e35cc1925",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_3_2_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      },
+      {
+        "id": "a222bb6c-0776-4207-b239-c8af27d52628",
+        "reportType": "PowerBIReport",
+        "format": "PBIRLegacy",
+        "name": "testreport_4_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/reports/a222bb6c-0776-4207-b239-c8af27d52628",
+        "embedUrl": "https://app.powerbi.com/reportEmbed?reportId=a222bb6c-0776-4207-b239-c8af27d52628&groupId=8fdb9540-af52-4db8-af5f-0cb96ca651ab&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "isFromPbix": true,
+        "isOwnedByMe": true,
+        "datasetId": "2b1285aa-8c88-4182-bd91-d865d93b8fae",
+        "datasetWorkspaceId": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+        "users": [],
+        "subscriptions": [],
+        "pbix_file": "./backups\\check_20251203_140135\\reports\\testreport_4_2.pbix",
+        "file_size_mb": 0.34,
+        "export_status": "success"
+      }
+    ],
+    "export_directory": "./backups\\check_20251203_140135\\reports",
+    "export_summary": {
+      "total": 24,
+      "successful": 24,
+      "failed": 0
+    }
+  },
+  "datasets": {
+    "count": 25,
+    "items": [
+      {
+        "id": "e8d6bd90-b74a-4b3d-acb9-4a4dfe87f88d",
+        "name": "GoogleDocDataSetReportCountOfColumn",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/e8d6bd90-b74a-4b3d-acb9-4a4dfe87f88d",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T20:52:02.57Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "e637c7fb-9a8d-4118-b63d-cce6fa4d3770",
+        "name": "testreport",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/e637c7fb-9a8d-4118-b63d-cce6fa4d3770",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T20:52:05.44Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "6397ffad-0d88-4af9-9f62-4d9e98ba2a84",
+        "name": "testreport_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/6397ffad-0d88-4af9-9f62-4d9e98ba2a84",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:07:30.257Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "e6619dd2-dc95-44b4-8530-3fc87c8b9e27",
+        "name": "GoogleDocDataSetReportCountOfColumn_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/e6619dd2-dc95-44b4-8530-3fc87c8b9e27",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:08:06.603Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "37238a22-1f08-40ef-bbb5-73a64e4d78e8",
+        "name": "testreport_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/37238a22-1f08-40ef-bbb5-73a64e4d78e8",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:08:09.39Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "6f96ba76-113e-4a46-a9db-066810d90f0a",
+        "name": "reportcheckrefresh",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/6f96ba76-113e-4a46-a9db-066810d90f0a",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "amanshri@veeamdatacloudsupport01.onmicrosoft.com",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:09:51.983Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "ecfbd4a9-f004-4ad9-bc6d-d40bfc6265d0",
+        "name": "GoogleDocDataSetReportCountOfColumn_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/ecfbd4a9-f004-4ad9-bc6d-d40bfc6265d0",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:12:43.397Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "94b5fa3e-0338-485f-a310-1a398332fadf",
+        "name": "GoogleDocDataSetReportCountOfColumn_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/94b5fa3e-0338-485f-a310-1a398332fadf",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:12:46.663Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "6bf363bb-3ee4-4af6-9729-d249d36a2185",
+        "name": "reportcheckrefresh_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/6bf363bb-3ee4-4af6-9729-d249d36a2185",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:12:49.637Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "7cee50e0-b413-43a8-954e-beb60f3b66e9",
+        "name": "testreport_4",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/7cee50e0-b413-43a8-954e-beb60f3b66e9",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:12:52.13Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "32ea910d-56cc-40dc-a2d3-c9011bc791ff",
+        "name": "testreport_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/32ea910d-56cc-40dc-a2d3-c9011bc791ff",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:12:55.447Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "6e12a83f-63c2-49d1-8a94-952eb183bf89",
+        "name": "testreport_3_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/6e12a83f-63c2-49d1-8a94-952eb183bf89",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:12:58.337Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "afdccb82-2b05-4158-bad2-e35d01013a55",
+        "name": "GoogleDocDataSetReportCountOfColumn_4",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/afdccb82-2b05-4158-bad2-e35d01013a55",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:17.02Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "0ec9c784-4304-4dcf-b2c4-926cfd16c400",
+        "name": "GoogleDocDataSetReportCountOfColumn_2_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/0ec9c784-4304-4dcf-b2c4-926cfd16c400",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:19.563Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "ba9d4903-f1d8-4024-bb4b-b1983d12ba09",
+        "name": "GoogleDocDataSetReportCountOfColumn_2_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/ba9d4903-f1d8-4024-bb4b-b1983d12ba09",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:22.21Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "df622e79-c502-4028-9a4e-c9e367763348",
+        "name": "GoogleDocDataSetReportCountOfColumn_3_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/df622e79-c502-4028-9a4e-c9e367763348",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:24.83Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "0bdf73d2-9902-4a73-bdc3-a3bbfccd7f75",
+        "name": "reportcheckrefresh_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/0bdf73d2-9902-4a73-bdc3-a3bbfccd7f75",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:27.06Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "7b4680f8-412b-4235-94b7-1ea14fdcbd98",
+        "name": "reportcheckrefresh_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/7b4680f8-412b-4235-94b7-1ea14fdcbd98",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:30.333Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "f0725327-b91e-4cbf-9ef8-36bf00b82686",
+        "name": "testreport_5",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/f0725327-b91e-4cbf-9ef8-36bf00b82686",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:33.427Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "5f9ed120-60e1-4141-b1f3-f7b34336533a",
+        "name": "testreport_2_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/5f9ed120-60e1-4141-b1f3-f7b34336533a",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:35.403Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "22fe26f4-977d-4280-b609-8d85edadab41",
+        "name": "testreport_2_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/22fe26f4-977d-4280-b609-8d85edadab41",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:37.903Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "bdad4672-a27c-4be8-99f2-88ecd2488e82",
+        "name": "testreport_3_3",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/bdad4672-a27c-4be8-99f2-88ecd2488e82",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:40.203Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "f20efcca-6238-4ee3-9210-e95e35cc1925",
+        "name": "testreport_3_2_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/f20efcca-6238-4ee3-9210-e95e35cc1925",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:42.7Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "2b1285aa-8c88-4182-bd91-d865d93b8fae",
+        "name": "testreport_4_2",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/2b1285aa-8c88-4182-bd91-d865d93b8fae",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-02T21:19:45.49Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      },
+      {
+        "id": "23a2be61-33dc-4375-8924-66bd5e963474",
+        "name": "testingExternalData",
+        "webUrl": "https://app.powerbi.com/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/datasets/23a2be61-33dc-4375-8924-66bd5e963474",
+        "addRowsAPIEnabled": false,
+        "configuredBy": "amanshri@veeamdatacloudsupport01.onmicrosoft.com",
+        "isRefreshable": true,
+        "isEffectiveIdentityRequired": false,
+        "isEffectiveIdentityRolesRequired": false,
+        "isOnPremGatewayRequired": false,
+        "targetStorageMode": "Abf",
+        "createdDate": "2025-12-03T05:26:56.14Z",
+        "createReportEmbedURL": "https://app.powerbi.com/reportEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "qnaEmbedURL": "https://app.powerbi.com/qnaEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVNXSVRaRVJMQU5ELU5PUlRILVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7InVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlfX0%3d",
+        "upstreamDatasets": [],
+        "users": [],
+        "queryScaleOutSettings": {
+          "autoSyncReadOnlyReplicas": true,
+          "maxReadOnlyReplicas": 0
+        }
+      }
+    ],
+    "configuration": {
+      "e8d6bd90-b74a-4b3d-acb9-4a4dfe87f88d": {
+        "name": "GoogleDocDataSetReportCountOfColumn",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "e637c7fb-9a8d-4118-b63d-cce6fa4d3770": {
+        "name": "testreport",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "6397ffad-0d88-4af9-9f62-4d9e98ba2a84": {
+        "name": "testreport_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "e6619dd2-dc95-44b4-8530-3fc87c8b9e27": {
+        "name": "GoogleDocDataSetReportCountOfColumn_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "37238a22-1f08-40ef-bbb5-73a64e4d78e8": {
+        "name": "testreport_3",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "6f96ba76-113e-4a46-a9db-066810d90f0a": {
+        "name": "reportcheckrefresh",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "amanshri@veeamdatacloudsupport01.onmicrosoft.com"
+        }
+      },
+      "ecfbd4a9-f004-4ad9-bc6d-d40bfc6265d0": {
+        "name": "GoogleDocDataSetReportCountOfColumn_3",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "94b5fa3e-0338-485f-a310-1a398332fadf": {
+        "name": "GoogleDocDataSetReportCountOfColumn_2_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "6bf363bb-3ee4-4af6-9729-d249d36a2185": {
+        "name": "reportcheckrefresh_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "7cee50e0-b413-43a8-954e-beb60f3b66e9": {
+        "name": "testreport_4",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "32ea910d-56cc-40dc-a2d3-c9011bc791ff": {
+        "name": "testreport_2_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "6e12a83f-63c2-49d1-8a94-952eb183bf89": {
+        "name": "testreport_3_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "afdccb82-2b05-4158-bad2-e35d01013a55": {
+        "name": "GoogleDocDataSetReportCountOfColumn_4",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "0ec9c784-4304-4dcf-b2c4-926cfd16c400": {
+        "name": "GoogleDocDataSetReportCountOfColumn_2_3",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "ba9d4903-f1d8-4024-bb4b-b1983d12ba09": {
+        "name": "GoogleDocDataSetReportCountOfColumn_2_2_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "df622e79-c502-4028-9a4e-c9e367763348": {
+        "name": "GoogleDocDataSetReportCountOfColumn_3_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "0bdf73d2-9902-4a73-bdc3-a3bbfccd7f75": {
+        "name": "reportcheckrefresh_3",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "7b4680f8-412b-4235-94b7-1ea14fdcbd98": {
+        "name": "reportcheckrefresh_2_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "f0725327-b91e-4cbf-9ef8-36bf00b82686": {
+        "name": "testreport_5",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "5f9ed120-60e1-4141-b1f3-f7b34336533a": {
+        "name": "testreport_2_3",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "22fe26f4-977d-4280-b609-8d85edadab41": {
+        "name": "testreport_2_2_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "bdad4672-a27c-4be8-99f2-88ecd2488e82": {
+        "name": "testreport_3_3",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "f20efcca-6238-4ee3-9210-e95e35cc1925": {
+        "name": "testreport_3_2_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "2b1285aa-8c88-4182-bd91-d865d93b8fae": {
+        "name": "testreport_4_2",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "25a902a8-2035-4858-a466-4be9c6bf2d96"
+        }
+      },
+      "23a2be61-33dc-4375-8924-66bd5e963474": {
+        "name": "testingExternalData",
+        "settings": {
+          "targetStorageMode": "Abf",
+          "isRefreshable": true,
+          "isEffectiveIdentityRequired": false,
+          "configuredBy": "amanshri@veeamdatacloudsupport01.onmicrosoft.com"
+        }
+      }
+    }
+  },
+  "dashboards": {
+    "count": 0,
+    "items": [],
+    "restore_notes": "Dashboards must be recreated in target workspace"
+  },
+  "dataflows": {
+    "count": 0,
+    "items": []
+  },
+  "refresh_schedules": [
+    {
+      "dataset_id": "e8d6bd90-b74a-4b3d-acb9-4a4dfe87f88d",
+      "dataset_name": "GoogleDocDataSetReportCountOfColumn",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "10:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "e637c7fb-9a8d-4118-b63d-cce6fa4d3770",
+      "dataset_name": "testreport",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "21:30"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "6397ffad-0d88-4af9-9f62-4d9e98ba2a84",
+      "dataset_name": "testreport_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "06:30"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "e6619dd2-dc95-44b4-8530-3fc87c8b9e27",
+      "dataset_name": "GoogleDocDataSetReportCountOfColumn_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "00:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "37238a22-1f08-40ef-bbb5-73a64e4d78e8",
+      "dataset_name": "testreport_3",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "03:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "6f96ba76-113e-4a46-a9db-066810d90f0a",
+      "dataset_name": "reportcheckrefresh",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "00:00",
+          "01:00",
+          "11:00",
+          "13:00"
+        ],
+        "enabled": true,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "ecfbd4a9-f004-4ad9-bc6d-d40bfc6265d0",
+      "dataset_name": "GoogleDocDataSetReportCountOfColumn_3",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "01:30"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "94b5fa3e-0338-485f-a310-1a398332fadf",
+      "dataset_name": "GoogleDocDataSetReportCountOfColumn_2_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "05:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "6bf363bb-3ee4-4af6-9729-d249d36a2185",
+      "dataset_name": "reportcheckrefresh_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "23:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "7cee50e0-b413-43a8-954e-beb60f3b66e9",
+      "dataset_name": "testreport_4",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "10:30"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "32ea910d-56cc-40dc-a2d3-c9011bc791ff",
+      "dataset_name": "testreport_2_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "10:30"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "6e12a83f-63c2-49d1-8a94-952eb183bf89",
+      "dataset_name": "testreport_3_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "02:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "afdccb82-2b05-4158-bad2-e35d01013a55",
+      "dataset_name": "GoogleDocDataSetReportCountOfColumn_4",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "04:30"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "0ec9c784-4304-4dcf-b2c4-926cfd16c400",
+      "dataset_name": "GoogleDocDataSetReportCountOfColumn_2_3",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "17:30"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "ba9d4903-f1d8-4024-bb4b-b1983d12ba09",
+      "dataset_name": "GoogleDocDataSetReportCountOfColumn_2_2_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "02:30"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "df622e79-c502-4028-9a4e-c9e367763348",
+      "dataset_name": "GoogleDocDataSetReportCountOfColumn_3_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "17:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "0bdf73d2-9902-4a73-bdc3-a3bbfccd7f75",
+      "dataset_name": "reportcheckrefresh_3",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "12:30"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "7b4680f8-412b-4235-94b7-1ea14fdcbd98",
+      "dataset_name": "reportcheckrefresh_2_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "02:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "f0725327-b91e-4cbf-9ef8-36bf00b82686",
+      "dataset_name": "testreport_5",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "01:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "5f9ed120-60e1-4141-b1f3-f7b34336533a",
+      "dataset_name": "testreport_2_3",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "10:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "22fe26f4-977d-4280-b609-8d85edadab41",
+      "dataset_name": "testreport_2_2_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "22:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "bdad4672-a27c-4be8-99f2-88ecd2488e82",
+      "dataset_name": "testreport_3_3",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "00:30"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "f20efcca-6238-4ee3-9210-e95e35cc1925",
+      "dataset_name": "testreport_3_2_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "00:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "2b1285aa-8c88-4182-bd91-d865d93b8fae",
+      "dataset_name": "testreport_4_2",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "times": [
+          "20:00"
+        ],
+        "enabled": false,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    },
+    {
+      "dataset_id": "23a2be61-33dc-4375-8924-66bd5e963474",
+      "dataset_name": "testingExternalData",
+      "schedule": {
+        "@odata.context": "https://wabi-switzerland-north-primary-redirect.analysis.windows.net/v1.0/myorg/groups/8fdb9540-af52-4db8-af5f-0cb96ca651ab/$metadata#Microsoft.PowerBI.ServiceContracts.Api.V1.RefreshSchedule",
+        "days": [
+          "Monday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "times": [],
+        "enabled": true,
+        "localTimeZoneId": "UTC",
+        "notifyOption": "MailOnFailure"
+      }
+    }
+  ],
+  "workspace_settings": {
+    "id": "8fdb9540-af52-4db8-af5f-0cb96ca651ab",
+    "name": "Check",
+    "type": "Workspace",
+    "state": null,
+    "is_ondemdpremium_enabled": null,
+    "is_premium_capacity": true,
+    "capacity_id": "a26c6eb9-ce5f-4778-a60c-a01a21a21816"
+  },
+  "metadata": {
+    "backup_date": "2025-12-03T14:02:15.574245",
+    "backup_format_version": "2.0",
+    "features_backed_up": {
+      "reports": true,
+      "datasets": true,
+      "dashboards": false,
+      "dataflows": false,
+      "refresh_schedules": true,
+      "workspace_settings": true
+    },
+    "restoration_steps": [
+      "\u2705 1\ufe0f\u20e3 PBIX files automatically exported and stored in backup",
+      "2\ufe0f\u20e3 Create or select target workspace",
+      "3\ufe0f\u20e3 Import PBIX files from backup folder to target workspace",
+      "4\ufe0f\u20e3 Datasets created automatically from PBIX imports",
+      "5\ufe0f\u20e3 Configure dataset refresh schedules (if available)",
+      "6\ufe0f\u20e3 Recreate dashboards using the backed-up metadata",
+      "7\ufe0f\u20e3 Restore workspace settings to match source",
+      "8\ufe0f\u20e3 Test all reports and dashboards in target workspace"
+    ]
+  }
+}
